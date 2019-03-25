@@ -1,0 +1,62 @@
+.contact-us-section {
+      padding-top: 2em;
+}
+
+.contact-us-section-right {
+      background: #121e25;
+      position: relative;
+}
+
+.contact-us-form {
+      padding: 2em;
+      color: white;
+
+}
+
+.contact-us__title {
+      @extend .intro__title;
+      margin-bottom: 0.2em;
+
+      &--modal {
+            color: $black;
+      }
+}
+
+
+.intro-section {
+      padding-top: 2em;
+}
+
+.contact-list {
+      list-style: none;
+      margin: 0 0 1em;
+
+}
+
+.contact-list__item {
+      display: flex;
+      padding-top: 1em;
+
+
+}
+
+
+.contact-list__icon-holder {
+      background: $black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 2em;
+      height: 2em;
+      margin-right: 0.6em;
+}
+
+
+.contact-list__icon {
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      stroke-width: 0;
+      stroke: currentColor;
+      fill: white;
+}

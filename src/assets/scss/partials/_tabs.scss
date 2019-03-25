@@ -1,0 +1,12 @@
+.tabs-wrapper {
+      padding: 2em 0 2em;
+}
+
+
+.tabs-content {
+      border-top: 1px solid $light-gray;
+}
+
+.tabs__title {
+      @extend .intro__title;
+}

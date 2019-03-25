@@ -1,0 +1,57 @@
+.intro-section {
+      padding-top: 2em;
+}
+
+.intro-list {
+      list-style: none;
+      margin: 0;
+      padding: 2px;
+
+}
+
+.intro-list__item {
+      display: flex;
+      padding-top: 1em;
+
+}
+
+
+.intro-list__icon-holder {
+      background: $black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 25px;
+      width: 1.6em;
+      height: 1.6em;
+      margin-right: 0.6em;
+      flex-shrink: 0;
+}
+
+
+.intro-list__icon {
+      display: inline-block;
+      width: 0.8em;
+      height: 0.8em;
+      stroke-width: 0;
+      stroke: currentColor;
+      fill: white;
+}
+
+.intro__title {
+      font-size: 2.5em;
+      letter-spacing: -0.05em;
+      margin: 0 0 0.8em;
+      font-weight: bold;
+      position: relative;
+
+      &::after {
+            background-color: $secondary-color;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 6px;
+            width: 60px;
+            content: "";
+      }
+}
